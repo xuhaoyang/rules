@@ -1,6 +1,12 @@
+- name: Apple
+  type: select
+  proxies:
+  - DIRECT
+  - Proxy
+  - Domestic
+
 Rule:
 - DOMAIN-SUFFIX,dl.google.com,Domestic
-
 - DOMAIN-SUFFIX,bintray.com,Proxy
 - DOMAIN-SUFFIX,mac-torrent-download.net,Proxy
 - DOMAIN-SUFFIX,portal.rixcloud.me,Proxy
